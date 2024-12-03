@@ -1,0 +1,23 @@
+; loop test
+
+iconst 0
+istore a
+iconst 10
+istore b
+
+:loop
+; print the value stored in a
+ iload a
+ int 1
+
+; inc a by one
+ iinc a 1
+
+; load b and a and compare
+ iload b
+ iload a
+icmple loop
+
+halt
+
+

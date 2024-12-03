@@ -1,0 +1,21 @@
+; testing vars
+
+iconst 10
+istore a
+iconst 0
+istore b
+
+:loop
+iload a
+int 1
+
+iload a
+iconst 1
+isub
+istore a
+
+iload a
+iload b
+icmple loop
+
+halt

@@ -1,0 +1,20 @@
+iconst 0
+istore a
+iconst 20
+istore b
+
+:loop
+ iload a
+int_math 4
+ ; print the value
+ int 1
+
+; inc a by one
+ iinc a 1
+
+; load b and a and compare
+ iload b
+ iload a
+icmple loop
+
+halt

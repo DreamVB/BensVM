@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1728502137 source:c:\users\dream\desktop\csharp2021\c\bvm\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<time.h>
+

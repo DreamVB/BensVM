@@ -1,0 +1,35 @@
+; Test math min
+iconst 10
+iconst 8
+int_math 1
+int 1
+
+; Test math max
+iconst 50
+iconst 8
+int_math 2
+int 1
+
+; Print first random number
+iconst 100
+istore a
+iload a
+int_math 0
+int 1
+; Print second random number
+iload a
+int_math 0
+int 1
+
+; Abs example
+iconst -8
+int_math 3
+int 1
+
+; sqr example
+iconst 3
+int_math 4
+int 1
+
+
+halt
